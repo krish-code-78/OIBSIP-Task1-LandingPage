@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brew Haven Coffee</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Lato:wght@300;400;700&family=Dancing+Script:wght@600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <header class="navbar">
+    <!-- CSS-only hamburger via checkbox hack -->
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+    <div class="nav-logo">
+      <span class="logo-icon">☕</span>
+      <span class="logo-text">Brew Haven</span>
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <label for="nav-toggle" class="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </label>
+    <label for="nav-toggle" class="nav-overlay"></label>
+  </header>
+
+  <!-- ========== HERO SECTION ========== -->
+  <section class="hero" id="home">
+    <div class="steam-container" aria-hidden="true">
+      <div class="steam s1"></div>
+      <div class="steam s2"></div>
+      <div class="steam s3"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-tagline">Est. 2026 &nbsp;·&nbsp; Artisan Coffee</p>
+      <h1 class="hero-heading">
+        Freshly Brewed<br />
+        <em>Happiness</em><br />
+        in Every Cup
+      </h1>
+      <p class="hero-desc">
+        Enjoy premium coffee made from handpicked beans and crafted with passion — one sip at a time.
+      </p>
+      <div class="hero-cta">
+        <a href="#menu" class="btn btn-primary">Order Now</a>
+        <a href="#about" class="btn btn-ghost">Our Story</a>
+      </div>
+    </div>
+
+    <div class="hero-cup" aria-hidden="true">
+      <div class="cup-wrapper">
+        <div class="cup-body">
+          <div class="cup-liquid"></div>
+        </div>
+        <div class="cup-base"></div>
+        <div class="cup-handle"></div>
+        <div class="saucer"></div>
+      </div>
+    </div>
+
+    <div class="hero-scroll-hint" aria-hidden="true">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT SECTION ========== -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-label">Who We Are</div>
+      <div class="about-grid">
+        <div class="about-text animate-left">
+          <h2 class="section-heading">About <span class="accent">Brew Haven</span></h2>
+          <p>Brew Haven Coffee is dedicated to serving rich, aromatic, and freshly brewed coffee using the finest coffee beans sourced from around the world.</p>
+          <p>Every cup is a craft. Our baristas undergo rigorous training, and our beans are ethically sourced from single-origin farms in Colombia, Ethiopia, and Sumatra.</p>
+          <div class="about-stats">
+            <div class="stat"><span class="stat-num">12+</span><span class="stat-label">Varieties</span></div>
+            <div class="stat"><span class="stat-num">5K+</span><span class="stat-label">Happy Customers</span></div>
+            <div class="stat"><span class="stat-num">4.9★</span><span class="stat-label">Average Rating</span></div>
+          </div>
+        </div>
+        <div class="about-visual animate-right">
+          <div class="bean-grid">
+            <div class="bean-card">🌱<span>Ethically Sourced</span></div>
+            <div class="bean-card">🔥<span>Slow Roasted</span></div>
+            <div class="bean-card">🌍<span>Single Origin</span></div>
+            <div class="bean-card">❤️<span>Made with Love</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== MENU SECTION ========== -->
+  <section class="menu section" id="menu">
+    <div class="container">
+      <div class="section-label">Our Specialties</div>
+      <h2 class="section-heading centered">Crafted <span class="accent">Menu</span></h2>
+      <div class="menu-grid">
+
+        <div class="menu-card" style="--i:1">
+          <div class="card-icon">☕</div>
+          <div class="card-roast">DARK ROAST</div>
+          <h3>Espresso</h3>
+          <p>A concentrated shot of pure intensity — bold, smooth, and unforgettable.</p>
+          <div class="card-footer">
+            <span class="price">₹110</span>
+            <button class="btn-order">Add to Order</button>
+          </div>
+        </div>
+
+        <div class="menu-card" style="--i:2">
+          <div class="card-icon">🥛</div>
+          <div class="card-roast">MEDIUM ROAST</div>
+          <h3>Latte</h3>
+          <p>Silky steamed milk poured over espresso. Creamy, balanced, and comforting.</p>
+          <div class="card-footer">
+            <span class="price">₹150</span>
+            <button class="btn-order">Add to Order</button>
+          </div>
+        </div>
+
+        <div class="menu-card" style="--i:3">
+          <div class="card-icon">🍫</div>
+          <div class="card-roast">INDULGENT</div>
+          <h3>Mocha</h3>
+          <p>Rich espresso meets premium dark chocolate for a decadent treat.</p>
+          <div class="card-footer">
+            <span class="price">₹180</span>
+            <button class="btn-order">Add to Order</button>
+          </div>
+        </div>
+
+        <div class="menu-card" style="--i:4">
+          <div class="card-icon">❄️</div>
+          <div class="card-roast">COLD BREW</div>
+          <h3>Cold Brew</h3>
+          <p>Steeped 18 hours in cold water. Smooth, refreshing, and naturally sweet.</p>
+          <div class="card-footer">
+            <span class="price">₹250</span>
+            <button class="btn-order">Add to Order</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== WHY CHOOSE US ========== -->
+  <section class="features section" id="features">
+    <div class="container">
+      <div class="section-label">Why Brew Haven</div>
+      <h2 class="section-heading centered">Why <span class="accent">Choose Us</span></h2>
+      <div class="features-grid">
+        <div class="feature-item" style="--i:1">
+          <div class="feature-icon">🏆</div>
+          <h4>Premium Coffee Beans</h4>
+          <p>Handpicked from top-grade farms, roasted fresh every morning.</p>
+        </div>
+        <div class="feature-item" style="--i:2">
+          <div class="feature-icon">⚡</div>
+          <h4>Fast Service</h4>
+          <p>Your perfect cup, ready in under 3 minutes — no compromises.</p>
+        </div>
+        <div class="feature-item" style="--i:3">
+          <div class="feature-icon">🌿</div>
+          <h4>Organic Ingredients</h4>
+          <p>100% natural milk, syrups, and add-ons. No artificial anything.</p>
+        </div>
+        <div class="feature-item" style="--i:4">
+          <div class="feature-icon">😍</div>
+          <h4>Customer Satisfaction</h4>
+          <p>Rated 4.9/5 by over 5,000 customers across our locations.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== REVIEWS SECTION ========== -->
+  <section class="reviews section" id="reviews">
+    <div class="container">
+      <div class="section-label">What People Say</div>
+      <h2 class="section-heading centered">Customer <span class="accent">Reviews</span></h2>
+      <div class="reviews-grid">
+
+        <div class="review-card" style="--i:1">
+          <div class="review-stars">★★★★★</div>
+          <blockquote>"Best coffee experience ever. The espresso had this incredible crema — I've never had anything like it outside of Italy."</blockquote>
+          <div class="reviewer">
+            <div class="avatar">A</div>
+            <div class="reviewer-info">
+              <span class="reviewer-name">Arjun Mehta</span>
+              <span class="reviewer-tag">Regular Customer</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card" style="--i:2">
+          <div class="review-stars">★★★★★</div>
+          <blockquote>"Loved the ambience and taste. The Cold Brew is my daily ritual now. Perfect balance of smooth and strong."</blockquote>
+          <div class="reviewer">
+            <div class="avatar">P</div>
+            <div class="reviewer-info">
+              <span class="reviewer-name">Priya Sharma</span>
+              <span class="reviewer-tag">Food Blogger</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card" style="--i:3">
+          <div class="review-stars">★★★★★</div>
+          <blockquote>"The Mocha here is absolutely divine. I come here every weekend to unwind and the staff always remembers my order."</blockquote>
+          <div class="reviewer">
+            <div class="avatar">R</div>
+            <div class="reviewer-info">
+              <span class="reviewer-name">Rohan Das</span>
+              <span class="reviewer-tag">Coffee Enthusiast</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER / CONTACT ========== -->
+  <footer class="footer" id="contact">
+    <div class="footer-top">
+      <div class="container footer-grid">
+
+        <div class="footer-brand">
+          <div class="nav-logo footer-logo">
+            <span class="logo-icon">☕</span>
+            <span class="logo-text">Brew Haven</span>
+          </div>
+          <p>Premium coffee, crafted with passion and served with heart. Visit us and experience the difference.</p>
+        </div>
+
+        <div class="footer-contact">
+          <h4>Contact Us</h4>
+          <ul>
+            <li><i class="fas fa-envelope"></i> <a href="mailto:krishraj78789@gmail.com">krishraj78789@gmail.com</a></li>
+            <li><i class="fas fa-phone"></i> <a href="tel:+916287360882">+91 6287360882</a></li>
+            <li><i class="fas fa-map-marker-alt"></i> 42, Coffee Lane, Main Road, Jehanabad, India</li>
+          </ul>
+        </div>
+
+        <div class="footer-social">
+          <h4>Follow Us</h4>
+          <div class="social-links">
+            <a href="#" class="social-btn" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-btn" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-btn" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-btn" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          </div>
+          <div class="footer-hours">
+            <h4>Hours</h4>
+            <p>Mon – Fri: 7AM – 10PM</p>
+            <p>Sat – Sun: 8AM – 11PM</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Brew Haven Coffee. All rights reserved. &nbsp;|&nbsp; Crafted with ☕ &amp; ❤️</p>
+    </div>
+  </footer>
+
+</body>
+</html>
