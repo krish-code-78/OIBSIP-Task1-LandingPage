@@ -13,6 +13,10 @@ A responsive landing page created for the Oasis Infobyte Web Development Interns
 - Contact Footer
 - Responsive Design
 
+ ## Screenshot
+
+![Landing Page](screenshot.png)
+
 ## Technologies Used
 
 - HTML5
