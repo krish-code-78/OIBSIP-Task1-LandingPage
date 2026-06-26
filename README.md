@@ -1,31 +1,22 @@
-# Brew Haven Coffee Landing Page
+# 🌐 Landing Page
 
-A responsive landing page created for the Oasis Infobyte Web Development Internship.
+Description...
 
-## Features
+## 📸 Project Preview
 
-- Responsive Navigation Bar
-- Hero Section
-- About Section
-- Menu Cards
-- Why Choose Us Section
-- Customer Reviews
-- Contact Footer
-- Responsive Design
+![Landing Page Screenshot](Screenshot.png)
 
- ## Screenshot
+## 🚀 Features
+...
 
-![Landing Page](screenshot.png)
+## 🛠️ Technologies Used
+...
 
-## Technologies Used
+## 📂 Project Structure
+...
 
-- HTML5
-- CSS3
+## 📁 GitHub Repository
+...
 
-## Project Preview
-
-Brew Haven Coffee is a modern coffee shop landing page that showcases premium coffee products, menu items, customer reviews, and contact information.
-
-## Author
-
-Krish Raj Gupta
+## 👨‍💻 Developed By
+...
