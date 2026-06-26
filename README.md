@@ -13,9 +13,9 @@ A responsive Landing Page built using **HTML and CSS** as part of the **Oasis In
 ## 🚀 Features
 
 - Fully Responsive Design  
-- Modern and Clean UI  
+- Clean and Modern UI  
+- Beginner Friendly Code  
 - Easy to Customize  
-- Smooth Layout Structure  
 
 ---
 
@@ -27,3 +27,21 @@ A responsive Landing Page built using **HTML and CSS** as part of the **Oasis In
 ---
 
 ## 📂 Project Structure
+
+index.html  
+style.css  
+screenshot.png  
+
+---
+
+## 🎯 About
+
+This project is a simple landing page created to practice frontend development skills using HTML and CSS.
+
+---
+
+## 👨‍💻 Author
+
+Krish Raj  
+Web Development Intern  
+Oasis Infobyte Internship
